@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="App">
         <div className="navBare">
-
             <div className="nav">
                 <ul>
                     <li><a href="/home" className="nav-barlink" >Home</a></li>
@@ -14,7 +13,7 @@ function App() {
                 </ul>
             </div>
             <div className="logo">Landing</div>
-            <div> <button className="button-dark"> Buy Now </button></div>
+            <div className="navBare-last-child"><button className="button-dark"> Buy Now </button></div>
         </div>
         <div className="container">
             <img src={imag} className="imag" alt="aaa"/>
